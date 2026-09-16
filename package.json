@@ -1,0 +1,34 @@
+{
+  "name": "playwright_programs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allureGenerate": "npx allure generate allure-results --clean -o allure-report",
+    "allureOpen": "npx allure open allure-report",
+    "test": "npx playwright test",
+    "test_headed": "npx playwright test --headed",
+    "test_report": "npx playwright test --reporter=html",
+    "Config": "npx playwright test --config=playwright.config1.js", 
+    "debug": "npx playwright test --debug",
+    "UImode": "npx playwright test --ui",
+  "Chrome": "npx playwright test --config=playwright.config1.js --project=chromeProject",
+    "Firefox": "npx playwright test --project=firefox",
+    "Webkit": "npx playwright test --project=webkit",
+    "webtag": "npx playwright test --grep @web",
+    "codegen": "npx playwright codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.1.2",
+    "allure-commandline": "^2.43.0",
+    "allure-playwright": "^3.12.0"
+  },
+  "dependencies": {
+    "exceljs": "^3.4.0"
+  }
+}

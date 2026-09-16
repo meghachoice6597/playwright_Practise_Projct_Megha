@@ -1,0 +1,24 @@
+[{
+    "username":"standard_user",
+    "password":"secret_sauce",
+    "myprdct" : "Sauce Labs Backpack",
+    "firstname":"Megha",
+    "lastname":"Saji",
+    "zip":"1234"
+
+},{
+     "username":"standard_user",
+    "password":"secret_sauce",
+    "myprdct" : "Sauce Labs Bike Light",
+    "firstname":"Miya",
+    "lastname":"Sonu",
+    "zip":"1234"
+},{
+     "username":"standard_user",
+    "password":"secret_sauce",
+    "myprdct" : "Sauce Labs Fleece Jacket",
+    "firstname":"Meethu",
+    "lastname":"Siya",
+    "zip":"1234"
+}
+]
