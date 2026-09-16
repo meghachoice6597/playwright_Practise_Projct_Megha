@@ -16,7 +16,8 @@
     "Firefox": "npx playwright test --project=firefox",
     "Webkit": "npx playwright test --project=webkit",
     "webtag": "npx playwright test --grep @web",
-    "codegen": "npx playwright codegen"
+    "codegen": "npx playwright codegen",
+    
   },
   "keywords": [],
   "author": "",
