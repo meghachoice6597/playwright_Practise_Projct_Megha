@@ -24,12 +24,13 @@ export default defineConfig({
     timeout: 50*1000   //Assertion timeout
   },
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
-  retries: 1,
+  //retries: 1,
   use: {
     screenshot:'only-on-failure',
     video:'retain-on-failure',
     trace:'retain-on-failure',
     headless: false,
+    fullyParallel: true
   },
 
   
