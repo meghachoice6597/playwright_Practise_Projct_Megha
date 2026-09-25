@@ -1,6 +1,6 @@
-import OrderData from "../Utils/OrderData.json"
-import { test, expect } from "@playwright/test";
-import { PageManger } from "../Pages/PageManager";
+import OrderData from "../Utils/OrderData.json" with {type: "json"};
+import test, {expect} from "@playwright/test"
+import {PageManger} from '../Pages/PageManager.js' 
 //While using as array we don't need to change the json to js --- so the below codes commented
 //const dataString = JSON.stringify(OrderData)
 //const data =JSON.parse(dataString)
