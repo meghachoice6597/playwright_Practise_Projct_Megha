@@ -1,8 +1,8 @@
-import { loginpage } from "./loginpage";
-import { productpage } from "./productpage";
-import { cartpage } from "./cartpage";
-import { checkout } from "./checkout";
-import { finalpage } from "./finalpage";
+import { loginpage } from "./loginpage.js";
+import { productpage } from "./productpage.js";
+import { cartpage } from "./cartpage.js";
+import { checkout } from "./checkout.js";
+import { finalpage } from "./finalpage.js";
  export class PageManger {
     constructor(page){
         this.page =page

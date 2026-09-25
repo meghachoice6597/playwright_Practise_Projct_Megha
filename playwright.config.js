@@ -14,7 +14,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  reporter: 'html',
+  reporter: [['html',{open:'never'}]],
   // we need to change html tp allure reporter to generate allure report
   /*reporter : [
     ['line'],['allure-playwright',{outputFolder:"allure-results"}],

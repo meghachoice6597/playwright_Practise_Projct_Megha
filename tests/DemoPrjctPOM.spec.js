@@ -23,10 +23,10 @@ test(`swagdemo ${data.myprdct}`, async ({ page }) => {
     await carpage.printcartitem(data.myprdct)
 
     const fillpage = pageManage.getcheckoutPage()
-    await fillpage.fillform(data.myprdct,data.firstname,data.lastname,data.zip)
+    await fillpage.fillform(data.firstname,data.lastname,data.zip)
 
     const finishPage =pageManage.getfinishPage()
-    await finishPage.finishOrder(data.myprdct)
+    await finishPage.finishOrder()
 
     
 
