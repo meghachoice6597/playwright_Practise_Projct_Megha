@@ -1,6 +1,6 @@
 import {test} from "@playwright/test"
 
-exports.myTest = test.extend({
+export const myTest = test.extend({
     //use - custom function is a clean way to use the fixture values in the test file
     userList: async ({}, use)=>{   
         await use([
