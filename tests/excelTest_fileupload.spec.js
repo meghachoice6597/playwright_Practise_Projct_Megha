@@ -1,6 +1,7 @@
 //if we hve two test to skip one test use --- test.skip otherwise test.only will run only that test and skip all other tests
 import test, {expect} from "@playwright/test"
-const Exceljs=require ('exceljs');  //import exceljs and store it in a variable
+import Exceljs from "exceljs" //import exceljs and store it in a variable
+//const Exceljs=require ('exceljs');  //import exceljs and store it in a variable
 //import {test,expect} from '@playwright/test' // this not required
 
 //async function with parameters searchValue,replacedValue,change,filePath
