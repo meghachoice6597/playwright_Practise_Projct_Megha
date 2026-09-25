@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-exports.customTest= test.extend({
+export const customTest = test.extend({
     loginFixture:{
         
     username:"standard_user",

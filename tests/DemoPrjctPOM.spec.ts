@@ -1,4 +1,4 @@
-import OrderData from "../Utils/OrderData.json"
+import OrderData from "../Utils/OrderData.json"with {type: "json"};
 import { test, expect } from "@playwright/test";
 import { PageManger } from "../pages_TS/PageManager.ts";
 for(const data of OrderData){
